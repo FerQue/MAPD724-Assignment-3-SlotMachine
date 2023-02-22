@@ -18,6 +18,9 @@ import SwiftUI
 
 struct ContentView: View {
     
+    //Properties
+    @State private var showingSupportView: Bool = false
+    
     //Declaring the variables
     @State private var credits = 1000
     @State private var winnings = 0
@@ -186,6 +189,22 @@ struct ContentView: View {
                         .cornerRadius(20)
                         .position(x:320, y:35)
                     
+                    //SupportView
+                        .overlay(
+                          Button(action: {
+                              self.showingSupportView = true
+                           }) {
+                             Image(systemName: "info.circle")
+                           }
+                            .padding(.top, 5)
+                            .padding(.trailing, 20)
+                            .accentColor(Color.secondary)
+                        , alignment: .topTrailing
+                        )
+                    
+                        
+                       
+                    
                     //Bet Title
                     Text("Select Bet") //Amount Placeholders
                         .foregroundColor(.black)
@@ -195,7 +214,13 @@ struct ContentView: View {
                         .cornerRadius(20)
                         .position(x:197, y:70)
                     
+                        .sheet(isPresented: $showingSupportView) {
+                            SupportView()
+                    
                 }
+               
+                }
+                
                 HStack
                 {
                     //Bet Button 10

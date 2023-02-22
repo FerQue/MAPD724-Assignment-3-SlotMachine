@@ -11,6 +11,7 @@
 		42B552B9297FB9C700320965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B552B8297FB9C700320965 /* ContentView.swift */; };
 		42B552BB297FB9C900320965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B552BA297FB9C900320965 /* Assets.xcassets */; };
 		42B552BE297FB9C900320965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B552BD297FB9C900320965 /* Preview Assets.xcassets */; };
+		55222DEE29A5B02900082624 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55222DED29A5B02900082624 /* SupportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		42B552B8297FB9C700320965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42B552BA297FB9C900320965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B552BD297FB9C900320965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55222DED29A5B02900082624 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				42B552B6297FB9C700320965 /* MAPD724_Assignment_1_2_3_Slot_Machine_AppApp.swift */,
 				42B552B8297FB9C700320965 /* ContentView.swift */,
+				55222DED29A5B02900082624 /* SupportView.swift */,
 				42B552BA297FB9C900320965 /* Assets.xcassets */,
 				42B552BC297FB9C900320965 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55222DEE29A5B02900082624 /* SupportView.swift in Sources */,
 				42B552B9297FB9C700320965 /* ContentView.swift in Sources */,
 				42B552B7297FB9C700320965 /* MAPD724_Assignment_1_2_3_Slot_Machine_AppApp.swift in Sources */,
 			);
